@@ -14,3 +14,26 @@
 
 /* Validation Styles */
 
+input:focus,
+select:focus,
+textarea:focus {
+    background-color: rgb(245, 245, 140);
+}
+
+#fnBox:focus:valid,
+#inBox:focus:valid,
+#addbox:focus:valid,
+#mailBox:focus:valid,
+#phoneBox:focus:valid,
+#idBox:focus:valid {
+    background: rgb(175, 250, 175) url(cg_valid.png) right/ contain no-repeat;
+}
+
+#fnBox:focus:invalid,
+#inBox:focus:invalid,
+#addbox:focus:invalid,
+#mailBox:focus:invalid,
+#phoneBox:focus:invalid
+#idBox:focus:invalid {
+    background: rgb(245, 173, 176) url(cg_invalid.png) right/ contain no-repeat;
+}
